@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     usoPrincipal.addEventListener('click', function () {
         if (isImageChanged) {
-            usoPrincipal.style.backgroundImage = "url('../img/advantages/before.jpg')";
+            usoPrincipal.style.backgroundImage = "url('./assets/img/advantages/before.jpg')";
             isImageChanged = false;
         } else {
-            usoPrincipal.style.backgroundImage = "url('../img/advantages/after.jpg')";
+            usoPrincipal.style.backgroundImage = "url('./assets/img/advantages/after.jpg')";
             isImageChanged = true;
         }
     });
