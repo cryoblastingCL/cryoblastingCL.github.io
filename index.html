@@ -15,17 +15,28 @@
       <!--====== Favicon Icon ======-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
       <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-      <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon/apple-touch-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon/apple-touch-icon-180x180.png" />
+
+      <link rel="preload" href="assets/img/hero.webp" as="image">
     
 
       <title>Cryogenic Blasting - Su solución de limpieza industrial en el norte de Chile. Eficiente, ecológica y segura.</title>
       <meta property="description" content="Cryogenic Blasting ofrece servicios de limpieza criogénica para diversas industrias. ¡Desde el norte de Chile!. Eficiente, ecológica y segura. Contacta con nosotros hoy.">
-      <meta name="keywords" content="limpieza criogénica, Cryogenic Blasting, limpieza industrial, ecológica, eficiente, segura">
+      <meta name="description" content="Cryogenic Blasting ofrece servicios de limpieza criogénica para diversas industrias. ¡Desde el norte de Chile!. Eficiente, ecológica y segura. Contacta con nosotros hoy.">
+      <meta name="keywords" content="limpieza criogénica, Cryogenic Blasting, limpieza industrial, ecológica, eficiente, segura, Chile, zona norte, industrial">
       <meta name="robots" content="index, follow">
 
 
       <!-- Canonical Link -->
-      <link rel="canonical" href="https://www.cryoblast.cl">
+      <link rel="canonical" href="https://cryoblast.cl">
     
       <!-- Open Graph (Facebook) -->
       <meta property="og:title" content="Cryogenic Blasting - Limpieza Eficiente y Ecológica en el norte de Chile">
@@ -37,29 +48,56 @@
       <!-- Schema.org Markup -->
       <script type="application/ld+json">
         {
-           "@context": "https://schema.org",
-           "@type": "Organization",
-           "name": "Cryogenic Blasting",
-           "url": "https://cryoblast.cl",
-           "logo": "https://cryoblast.cl/assets/img/logo-no-background.png",
-           "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+56 9 88854596",
-              "contactType": "Customer Service"
-           },
-           "sameAs": [
-              "https://www.linkedin.com/company/cryogenicblasting"
-           ],
-           "service": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Cryogenic Blasting",
+          "url": "https://cryoblast.cl",
+          "logo": "https://cryoblast.cl/assets/img/logo-no-background.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+56 9 88854596",
+            "contactType": "Customer Service",
+            "email": "contacto@cryoblast.cl",
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "opens": "09:00",
+              "closes": "19:00"
+            }
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Serena",
+            "addressCountry": "Chile"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/cryogenicblasting"
+          ],
+          "foundingDate": "2024",
+          "areaServed": "Northern Chile",
+          "makesOffer": {
+            "@type": "Offer",
+            "itemOffered": {
               "@type": "Service",
-              "serviceType": "Cryogenic Cleaning",
+              "name": "Cryogenic Cleaning",
               "description": "Cryogenic Blasting provides efficient, ecological, and safe industrial cleaning using dry ice in Northern Chile.",
-              "areaServed": "Northern Chile",
-              "provider": {
-                 "@type": "Organization",
-                 "name": "Cryogenic Blasting"
+              "areaServed": {
+                "@type": "Place",
+                "name": "Northern Chile"
               }
-           }
+            }
+          },
+          "founders": [
+            {
+              "@type": "Person",
+              "name": "Francisco Thenoux"
+            },
+            {
+              "@type": "Person",
+              "name": "Manuel Thenoux"
+            }
+          ],
+          "numberOfEmployees": "Less than 10",
+          "knowsLanguage": ["es-ES", "en-US"]
         }
         </script>
       
@@ -134,7 +172,7 @@
         <div class="container mx-auto">
           <div class="relative flex justify-center items-center">
             <!-- Imagen de fondo -->
-            <img class="w-full h-auto object-cover" src="assets/img/hero.jpeg" alt="La máquina criogénica">
+            <img class="w-full h-auto object-cover" src="assets/img/hero.webp" alt="La máquina criogénica" loading="lazy">
       
             <!-- Texto sobre la imagen -->
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50 p-4">
@@ -155,7 +193,7 @@
           <div class="flex flex-wrap items-center">
             <div class="w-full lg:w-1/2">
               <div class="mb-5 lg:mb-0">
-                <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Conócenos</h2>
+                <h1 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Conócenos</h1>
                 
                 <div class="flex flex-wrap">
                   <div class="w-full sm:w-1/2 lg:w-1/2">
@@ -164,7 +202,7 @@
                         ❄
                       </div>
                       <div class="features-content">
-                        <h4 class="feature-title">Limpieza criogénica</h4>
+                        <h2 class="feature-title">Limpieza criogénica</h2>
                         <p> Es un proceso de limpieza que utiliza hielo seco para eliminar contaminantes de superficies industriales.</p>
                       </div>
                     </div>
@@ -175,7 +213,7 @@
                         <i class="lni lni-star"></i>
                       </div>
                       <div class="features-content">
-                        <h4 class="feature-title">Nosotros</h4>
+                        <h2 class="feature-title">Nosotros</h2>
                         <p> Somos una (aún) pequeña empresa familiar de la región de Coquimbo que busca dar el mejor servicio en la zona.</p>
                       </div>
                     </div>
@@ -186,7 +224,7 @@
                         <i class="lni lni-certificate"></i>
                       </div>
                       <div class="features-content">
-                        <h4 class="feature-title">Certificados</h4>
+                        <h2 class="feature-title">Certificados</h2>
                         <p> Nos preocupamos de que tanto los equipos como el personal tengan la documentación necesaria para poder trabajar.</p>
                       </div>
                     </div>
@@ -197,7 +235,7 @@
                         <i class="lni lni-pointer-right"></i>
                       </div>
                       <div class="features-content">
-                        <h4 class="feature-title">Nos adaptamos a tus necesidades</h4>
+                        <h2 class="feature-title">Nos adaptamos a tus necesidades</h2>
                         <p> ¿Necesita limpiar una pequeña superficie o un galpón?<br>¡Nosotros lo solucionamos!</p>
                       </div>
                     </div>
@@ -527,16 +565,16 @@
               </div>
               <div class="portfolio-carousel">
                 <div>
-                  <img class="w-full" src="assets/img/slide/img1.jpg" alt="Máquina de limpieza criogénica.">
+                  <img class="w-full" src="assets/img/slide/img1.webp" alt="Máquina de limpieza criogénica.">
                 </div>
                 <div>
-                  <img class="w-full" src="assets/img/slide/img2.jpg" alt="Carro full equipado con máquina de limpieza.">
+                  <img class="w-full" src="assets/img/slide/img2.webp" alt="Carro full equipado con máquina de limpieza.">
                 </div>
                 <div>
-                  <img class="w-full" src="assets/img/slide/img3.jpg" alt="Carro full equipado con cooler para mantenimiento del hielo seco.">
+                  <img class="w-full" src="assets/img/slide/img3.webp" alt="Carro full equipado con cooler para mantenimiento del hielo seco.">
                 </div>
                 <div>
-                  <img class="w-full" src="assets/img/slide/img4.jpg" alt="Sonómetro">
+                  <img class="w-full" src="assets/img/slide/img4.webp" alt="Sonómetro">
                 </div>
                   <!-- <div>
                     <img class="w-full" src="assets/img/slide/img5.jpg" alt="">
@@ -680,7 +718,7 @@
                   </li> -->
                   <li class="mx-2">
                     <a href="https://www.linkedin.com/company/cryoblastcl"
-                      class="footer-icon hover:bg-indigo-600">
+                      class="footer-icon hover:bg-indigo-600"  aria-label="LinkedIn">
                       <i class="lni lni-linkedin-original" aria-hidden="true"></i>
                     </a>
                   </li>
@@ -710,7 +748,7 @@
       <!-- Footer Section End -->
 
       <!-- Go to Top Link -->
-      <a href="#" class="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg z-20 duration-300 hover:bg-blue-400">
+      <a href="#" class="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg z-20 duration-300 hover:bg-blue-400" aria-label="Subir">
         <i class="lni lni-arrow-up"></i>
       </a>
       <!-- Preloader -->

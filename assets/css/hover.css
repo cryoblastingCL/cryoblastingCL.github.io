@@ -1,6 +1,6 @@
       /* Estilos para la imagen principal */
       #advantages .uso-principal {
-          background-image: url('../img/advantages/before.jpg'); /* Ruta de la imagen */
+          background-image: url('../img/advantages/before.webp'); /* Ruta de la imagen */
           background-size: cover;
           background-position: center;
           height: 400px; /* Ajusta la altura según sea necesario */
@@ -9,11 +9,11 @@
 
       /* Al pasar el puntero, cambia la imagen */
       #advantages .uso-principal:hover {
-          background-image: url('../img/advantages/after.jpg'); /* Ruta de la imagen al pasar el puntero */
+          background-image: url('../img/advantages/after.webp'); /* Ruta de la imagen al pasar el puntero */
       }
       @media (max-width: 1024px) {
       #advantages .uso-principal {
-        background-image: url('../img/advantages/before.jpg');
+        background-image: url('../img/advantages/before.webp');
         background-size: cover;
         background-position: center;
         height: 400px; /* Ajusta la altura según sea necesario */
@@ -21,6 +21,6 @@
 
       }
       #advantages .uso-principal:active {
-          background-image: url('../img/advantages/after.jpg'); /* Ruta de la imagen al pasar el puntero */
+          background-image: url('../img/advantages/after.webp'); /* Ruta de la imagen al pasar el puntero */
       }
     }

@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: 
-Disallow: assets, sitemap.xml
+Disallow: /cdn-cgi/
+Disallow: assets, sitemap.xml, index.html, 
